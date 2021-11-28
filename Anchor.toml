@@ -1,0 +1,12 @@
+[programs.localnet]
+base_acc = "7GscEKEx8NHT4HYzEgUTB99QtjXu7XFwRykvcw2pEpXK"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/mehulghoderao/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

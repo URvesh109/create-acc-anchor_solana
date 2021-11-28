@@ -1,0 +1,15 @@
+[package]
+name = "base_acc"
+version = "0.0.1"
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+anchor-client = { path = "../" }
+base_acc = { path = "../../programs/base_acc", features = ["no-entrypoint"] }
+shellexpand = "2.1.0"
+anyhow = "1.0.32"
+rand = "0.7.3"
+clap = "3.0.0-beta.5"
+solana-sdk = "1.7.11"
